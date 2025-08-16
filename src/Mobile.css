@@ -1,0 +1,95 @@
+@media screen and (max-width: 600px) {
+  
+#slideNav{
+    display: block;
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    top: 0;
+    right: -999px;
+    background-color: rgb(243, 225, 225);
+    transition: 0.6s ease;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1000;
+    
+} 
+svg{
+    transform: scale(1.8);
+    color: #fff;
+    background-color: black;
+    transition: 0.6s ease;
+    cursor:pointer;
+}
+svg:hover{
+    color: #3384bd;
+}
+#slideNav ul li a{
+    color: black !important;
+
+}
+#slideNav ul {
+    display: flex;
+    
+    flex-direction: column;
+    margin: 30px !important;
+}
+#slideNav ul li:first-child{
+    color: black;
+    transform: scale(1.2);
+    margin-left:15px;
+}
+#slideNave ul li{
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+#slideNave ul li:hover{
+    color: #3384bd !important;
+}
+#navBar h1{
+    font-size: 34px;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 0%;
+}
+#hero img{
+    width: 150px;
+    height: 250px;
+    margin-top: -50px;
+}
+#hero h1{
+    font-size: 34px;
+    
+} 
+#hero h1:first-child{
+    margin-right: auto;
+} 
+#hero button{
+    width: 30%;
+    margin-left: 37%;
+}
+#Technology h2{
+    margin-left: 30%;
+    font-size: 34px;
+}
+.techItem{
+    width: 100%;
+    
+}
+.techItem p{
+    font-size: 16px;
+}
+.techItem h3{
+    font-size: 24px;
+}
+.techItem>img{
+    width:20% !important;
+}
+.text{
+    width: 90%;
+    margin-left:auto;
+}
+}

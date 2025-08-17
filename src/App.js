@@ -1,12 +1,9 @@
-import React from 'react'
 import {Routes, Route, Link} from 'react-router-dom'
 import './App.css'
 import Home from './Home'
-import Hero from './Hero'
 import Certificates from './Certificates'
 import Projects from './Projects'
 import Missing from './Missing'
-import Technologies from './Technologies'
 import useWindowSize from './WindowSize'
 import { GiHamburgerMenu } from "react-icons/gi";
 import './Mobile.css';
@@ -14,10 +11,10 @@ import './Mobile.css';
 function App() {
   const {width} = useWindowSize();
   const moreOptions = ()=>{
-    const nav = document.querySelector('#slideNav').style.right = '0';
+     document.querySelector('#slideNav').style.right = '0';
     }
     const close=()=>{
-    const nav = document.querySelector('#slideNav').style.right = '-999px';
+     document.querySelector('#slideNav').style.right = '-999px';
 
 
     }

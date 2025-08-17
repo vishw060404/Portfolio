@@ -6,7 +6,6 @@ function Certificates() {
 
     <div className='certificates'>
         <h1>Certificates</h1>
-        {/* <h3>Web Development</h3> */}
         <div className='slot'>
         <img src='Image/MERN.jpg'/>
         <img src='Image/AWS.jpg'/>
@@ -22,27 +21,7 @@ function Certificates() {
           <img src='Image/Electronics.jpg'/>
           <img src='Image/AWS1.jpg'/>
           <img src='Image/AWS2.jpg'/>
-
-
-
-
-
-
-
-
       </div>
-        {/* <h3>Machine Learning</h3>
-
-       <div className='slot'>
-        
-
-      </div>
-        <h3>AI Tools</h3>
-
-      <div className='slot'>
-      
-
-      </div> */}
     </div>
   )
 }

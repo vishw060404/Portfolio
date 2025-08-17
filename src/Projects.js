@@ -16,11 +16,11 @@ function Projects() {
           <h2>Notes-Tasking App</h2>
           <p>To watch movies using API . Amazing content is waiting for you!</p>
         </div></a>
-        <a><div className='projectItems2 text'>
+        <a href='https://github.com/vishw060404/Online-Notes-taking-Application.git'><div className='projectItems2 text'>
           <h2>To-do-list App</h2>
           <p>To watch movies using API . Amazing content is waiting for you!</p>
         </div></a>
-        <a><div className='projectItems3 text'>
+        <a href='https://github.com/vishw060404/contact.git'><div className='projectItems3 text'>
           <h2>Contact Management App</h2>
           <p>To watch movies using API . Amazing content is waiting for you!</p>
         </div></a>

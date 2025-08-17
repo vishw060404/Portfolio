@@ -22,7 +22,7 @@ function App() {
       <section 
         id='navBar'
         style={{
-          width: (location.pathname === '/' && width < 700) ? '70%' : '100%'
+          width: (location.pathname === '/' && width < 600) ? '70%' : '100%'
         }}
       >
         <h2>Portfolio</h2>

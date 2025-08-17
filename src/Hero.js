@@ -36,7 +36,7 @@ function Hero() {
             /></a>
             
           </div>
-          <button className='btn' onClick={() => setPopUp(false)}>Close</button>
+          <button className='btn-hero' onClick={() => setPopUp(false)}>Close</button>
         </div>
       )}
     </div>

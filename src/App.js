@@ -1,6 +1,7 @@
-import {Routes, Route, Link} from 'react-router-dom'
+import {Routes, Route, Link, useLocation} from 'react-router-dom'
 import './App.css'
 import Home from './Home'
+
 import Certificates from './Certificates'
 import Projects from './Projects'
 import Missing from './Missing'
@@ -9,9 +10,19 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import './Mobile.css';
 
 function App() {
+  const location = useLocation()
   const {width} = useWindowSize();
+   if(location.pathname == '/' && width <700){
+      document.getElementById('navBar').style.width = '70%';
+     }
+     else{
+      document.getElementById('navBar').style.width = '100%';
+
+     }
   const moreOptions = ()=>{
-     document.querySelector('#slideNav').style.right = '0';
+     const nav=document.querySelector('#slideNav');
+     nav.style.right = '150px'
+    
     }
     const close=()=>{
      document.querySelector('#slideNav').style.right = '-999px';
@@ -26,6 +37,7 @@ function App() {
           <h2>Portfolio</h2>
           <div>
             {width > 600 ?
+            
             <nav>
               <ul>
                 <li><Link to={'/'}>Home</Link></li>
